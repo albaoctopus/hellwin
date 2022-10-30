@@ -33,14 +33,7 @@ export const Navbar = () => (
                
               </a>
             </li>
-            <li>
-              <a
-                href="/market"
-                className="text-gray-900 dark:text-white font-extrabold hover:underline"
-              >
-               
-              </a>
-            </li>
+            
             <li>
               <a
                 href="/mint"
@@ -49,14 +42,7 @@ export const Navbar = () => (
               
               </a>
             </li>
-            <li>
-              <a
-                href="/vote"
-                className="text-gray-900 dark:text-white font-extrabold hover:underline"
-              >
-               
-              </a>
-            </li>
+           
           </ul>
         </div>
       </div>
