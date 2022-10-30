@@ -26,22 +26,9 @@ export const Navbar = () => (
       <div className="py-3 px-4 mx-auto max-w-screen-xl md:px-6">
         <div className="flex items-center">
           <ul className="flex flex-row mt-0 mr-6 space-x-8 text-sm font-medium">
-            <li>
-              <a>
+           
             
-              
-               
-              </a>
-            </li>
-            
-            <li>
-              <a
-                href="/mint"
-                className="text-gray-900 dark:text-white font-extrabold hover:underline"
-              >
-              
-              </a>
-            </li>
+          
            
           </ul>
         </div>

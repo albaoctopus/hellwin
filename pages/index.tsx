@@ -18,8 +18,8 @@ const Home: NextPage = () => {
       </div>
       <main className={styles.main}>
         <h1 className={styles.title}>
-          <a href="https://startech.vc/ru">StarTech VC</a> и <a href="muivlab.ru">MUIV LAB</a>
-          <p className="text-white-300"> Представляют  </p>
+          <a href="https://startech.vc/ru">StarTech VC и</a> <a href="muivlab.ru">MUIV LAB</a>
+          <p className="text-slate-200"> Представляют  </p>
         </h1>
 
         <p className={styles.description}>
