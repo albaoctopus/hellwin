@@ -66,7 +66,7 @@ import {
             />
 
              <div className={styles.mainButton}>
-              <p>Чудесный Элексир</p>
+              <p>Чудесный Эликсир</p>
              </div>
   
             {/* Amount claimed so far */}
