@@ -12,7 +12,7 @@ import {
   import styles from "../styles/Mint.module.css";
   
   // Put Your NFT Drop Contract address from the dashboard here
-  const myNftDropContractAddress = "0xF24c837557AEe29EE6A5C5618d10Ee614821944E";
+  const myNftDropContractAddress = "0x4a273D0e17cF02EFb2B34fE67f40a0D7F96BbD9C";
   
   const MintCardw: NextPage = () => {
     const { contract: nftDrop } = useContract(myNftDropContractAddress);
