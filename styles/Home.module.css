@@ -24,9 +24,15 @@
 }
 
 .title {
-  margin: 0;
+  margin-top: 50px;
   line-height: 1.15;
-  font-size: 4rem;
+  font-size: 6rem;
+  font-weight: 600;
+  background: linear-gradient(45deg, #892afe 33%, #ff2366 66%, #B9261C);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #0B2349;
+  display: table;
 }
 
 .title,
@@ -67,25 +73,46 @@
   max-width: 1800px;
 }
 
-.card {
+.heroca {
   background-color: #1b2129;
-  margin: 10rem;
+  margin: 2rem;
   padding: 1.5rem;
   text-align: left;
-  color: inherit;
+  color: white;
   text-decoration: none;
   border: 1px solid #eaeaea;
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
-  max-width: 200px;
+  max-width: 1000px;
+}
+
+.heroca:hover,
+.heroca:focus,
+.heroca:active {
+  background-color: #272c34;
+  color: #ff2366;
+  border-color: #ff2366;
+}
+
+.card {
+  background-color: #1b2129;
+  margin: 2rem;
+  padding: 1.5rem;
+  text-align: left;
+  color: white;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 16px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  max-width: 1000px;
 }
 
 .card:hover,
 .card:focus,
 .card:active {
-  background-color: #272c34;
-  color: #0ea5e9;
-  border-color: #0ea5e9;
+  background-color: #1b2129;
+  color: #ff2366;
+  border-color: #ff2366;
 }
 
 .card h2 {
@@ -112,7 +139,7 @@
 
   .title {
     margin: 3 3;
-    font-size: 2rem;
+    font-size: 3rem;
     
   }
 }

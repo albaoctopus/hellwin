@@ -64,6 +64,10 @@ import {
               src={contractMetadata?.image}
               alt={`${contractMetadata?.name} preview image`}
             />
+
+            <div className={styles.mainButton}>
+              <p>Скелеты в Гараже</p>
+            </div>
   
             {/* Amount claimed so far */}
             <div className={styles.mainButton}>

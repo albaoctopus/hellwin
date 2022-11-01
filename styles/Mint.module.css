@@ -91,7 +91,7 @@
     min-width: 3rem;
     font-size: 1rem;
     background: #e5e5ea;
-    background-image: linear-gradient(to left, #AA3A38 0%, #2F7336 101.52%);
+    background-image: linear-gradient(to right, #892afe 0%, #B9261C 101.52%);
     color: #fff;
     width: 100%;
     text-align: center;
@@ -99,6 +99,12 @@
     margin-left: 1px;
     margin-right: 12px;
     margin-bottom: 12px;
+  }
+
+  .mainButton:hover {
+   
+    background-image: linear-gradient(to left, #892afe 0%, #B9261C 101.52%);
+    transform: scale(1.1)
   }
   
   .buttonGapTop {
