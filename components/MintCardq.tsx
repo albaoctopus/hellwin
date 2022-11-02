@@ -61,7 +61,7 @@ import {
             {/* Image Preview of NFTs */}
             <img
               className={styles.image}
-              src={contractMetadata?.image}
+              src="/elixir.gif"
               alt={`${contractMetadata?.name} preview image`}
             />
 
